@@ -16,11 +16,15 @@ public class demo
 {
     public static void main(String [] args) throws Exception
     {
-        int a = Integer.parseInt(args[0]);
-        int b = a / 4;
-        int c = b % 4;
+        String a = "aaa";
+        String b = "bb";
+        char c = 'c';
+        char d = 'd';
+        String test1 = "apple";
+        String test2 = "bananananananan";
 
-        System.out.println(c);
-
+        System.out.println(a > b);
+        System.out.println(test1 > test2);
+        System.out.println(c > d);
     }
 }
